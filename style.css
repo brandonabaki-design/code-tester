@@ -1,100 +1,55 @@
-/* Global Styles */
-* {
-    box-sizing: border-box;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+.hero-section {
+    background-color: #1e98b4;
+    color: white;
     text-align: center;
-}
-
-header h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-#hero {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#hero button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#hero img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-}
-
-#about {
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-#about h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-#courses {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-}
-
-#courses table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#courses th, #courses td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-#courses tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-#admissions {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-}
-
-#admissions form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-}
-
-#admissions label {
-    margin-right: 10px;
-}
-
-#admissions input, #admissions select {
-    padding: 10px;
+    padding: 50px;
     margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.about-section, .curriculum-section, .programs-section {
+    padding: 50px;
+}
+
+.contact-section {
+    background-color: #f4f4f9;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .navbar ul li {
+        display: block;
+    }
 }
