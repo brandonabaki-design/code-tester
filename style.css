@@ -1,0 +1,100 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hero img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#about {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#courses {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#courses table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#courses th, #courses td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#courses tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#admissions {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#admissions form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#admissions label {
+    margin-right: 10px;
+}
+
+#admissions input, #admissions select {
+    padding: 10px;
+    margin-bottom: 20px;
+}
